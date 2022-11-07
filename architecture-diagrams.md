@@ -1,5 +1,6 @@
 # ARchitectural Diagrams
 
+```mermaid
 C4Context
 title System Context diagram for Internet Banking System
 
@@ -32,3 +33,6 @@ BiRel(customerA, SystemAA, "Uses")
 BiRel(SystemAA, SystemE, "Uses")
 Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
 Rel(SystemC, customerA, "Sends e-mails to")
+```
+
+END
